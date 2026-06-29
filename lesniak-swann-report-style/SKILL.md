@@ -13,7 +13,7 @@ Default to a document-first approach. For reports, prefer DOCX, PDF, slides, or 
 
 ## Overall Feel
 
-Reports should feel clear, spacious, editorial, and confident. Use light sections with dark text as the default. Reserve dark blocks for occasional high-emphasis callouts, chapter dividers, or covers.
+Reports should feel clear, spacious, editorial, and confident. Use light sections with dark text as the default. Do not add a separate cover page unless the user explicitly asks for one. Reserve dark blocks for occasional high-emphasis callouts or chapter dividers.
 
 Prioritise:
 
@@ -50,7 +50,7 @@ Use a restrained hierarchy. A report should normally need only one H1, then H2 a
 
 | Role | Use | Digital size | DOCX/PDF print size | Line height |
 | --- | --- | --- | --- | --- |
-| Title / H1 | Report title or cover title | 40-72px | 30-54pt | 1.1-1.2 |
+| Title / H1 | Report title | 40-72px | 30-54pt | 1.1-1.2 |
 | H2 | Major sections | 36-60px | 27-45pt | 1.1-1.2 |
 | H3 | Subsections / finding groups | 28-52px | 21-39pt | 1.15-1.25 |
 | H4 | Card headings / table groups | 24-40px | 18-30pt | 1.2-1.3 |
@@ -117,14 +117,14 @@ Spacing rules:
 - Leave more space above a new section than between paragraphs inside a section.
 - Keep related headings, body copy, charts, and notes visually grouped.
 - Avoid cramped tables; reduce copy before reducing line height.
-- Avoid huge empty areas unless used deliberately on a cover or section opener.
+- Avoid huge empty areas unless used deliberately on a section opener.
 
 ## Layout Patterns
 
 Use these recurring report patterns:
 
-- Header: use a clear report title, date or client metadata, and restrained accent rule.
-- Cover: large title, short subtitle, date or client metadata, restrained accent rule.
+- Header: use a clear report title, date or client metadata, and restrained accent rule. Start reports with this header by default rather than a separate cover page.
+- Cover: only include one when explicitly requested; use a large title, short subtitle, date or client metadata, and restrained accent rule.
 - Executive summary: lead paragraph, 3-5 key findings, optional metric strip.
 - Section opener: H2, short lead, then content blocks.
 - Finding block: H3/H4, short explanation, evidence, implication or recommendation.
