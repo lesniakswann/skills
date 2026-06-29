@@ -4,6 +4,12 @@ This is the Lesniak Swann repository for reusable AI skills. Each folder contain
 
 More information can be found in the Lesniak Swann Slack channel **Claude Skills**.
 
+## Available Skills
+
+| Skill | Folder | Summary |
+| --- | --- | --- |
+| Lesniak Swann Report Style | `lesniak-swann-report-style` | Applies the Lesniak Swann report style to DOCX, PDF, slides, and styled Markdown, including typography, spacing, hierarchy, brand colours, logo use, tables, charts, and document-first output guidance. |
+
 ## Downloading A Skill
 
 1. Open the folder for the skill you want to use.
