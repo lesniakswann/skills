@@ -11,6 +11,17 @@ Apply the guidance silently. Do not add commentary inside the report about fonts
 
 Default to a document-first approach. For reports, prefer DOCX, PDF, slides, or well-structured Markdown over standalone HTML. HTML reports are usually not useful as final deliverables unless the user specifically asks for one or the toolchain needs HTML as an intermediate step to produce a PDF.
 
+## Required Brand Element
+
+Every designed report, cover, PDF, DOCX, slide deck, or styled HTML output must visibly include the Lesniak Swann logo. Do this before treating the report as complete.
+
+- Put the logo on the cover or first page, normally in the header area above the title.
+- Use the inline SVG in the Logo Asset section. Do not use remote logo URLs.
+- Size it proportionally, around `110-222px` wide for digital layouts or `35-70mm` wide for print-style documents.
+- Keep clear space around it. Do not stretch, recolour, crop, trace, or replace it with plain text.
+- If the output format cannot embed SVG directly, convert the SVG to an embedded image and place that image instead.
+- If the toolchain genuinely cannot include any image, tell the user this limitation instead of silently omitting the logo.
+
 ## Overall Feel
 
 Reports should feel clear, spacious, editorial, and confident. Use light sections with dark text as the default. Reserve dark blocks for occasional high-emphasis callouts, chapter dividers, or covers.
@@ -168,7 +179,7 @@ Adapt the same rules to the output medium.
 For DOCX:
 
 - Define and reuse Word styles: Title, Subtitle, Heading 1-3, Body Text, Lead, Caption, Table Header, Table Body, Callout.
-- Add the logo at the top of the first page. Use the inline SVG from this skill where the tooling supports SVG; otherwise convert that SVG to an embedded image. Do not depend on remote logo URLs.
+- Add the logo at the top of the first page or cover before the title. Use the inline SVG from this skill where the tooling supports SVG; otherwise convert that SVG to an embedded image. Do not depend on remote logo URLs.
 - Use point sizes from the DOCX/PDF column in the type table.
 - Use exact or multiple line spacing equivalent to the line-height guidance.
 - Use paragraph spacing after instead of extra blank paragraphs.
@@ -176,6 +187,7 @@ For DOCX:
 
 For PDF:
 
+- Include the logo on the cover or first page.
 - Treat it like print: use the DOCX/PDF point sizes.
 - Keep body text around 12-13.5pt with generous leading.
 - Use margins and section spacing rather than relying on large decorative containers.
@@ -185,6 +197,7 @@ For HTML:
 
 - Do not choose HTML as the final report format unless explicitly requested.
 - If HTML is used as a PDF-rendering intermediate, keep it print-oriented and generate the PDF deliverable.
+- Inline the SVG logo in the header or cover area.
 - Use rem or px values matching the digital size column.
 - Keep the root/body typography consistent across pages.
 - Use responsive reductions only when needed for small screens.
@@ -199,6 +212,7 @@ For Markdown:
 
 Before finishing:
 
+- The Lesniak Swann logo is visible on the cover, first page, or first slide. If it is missing, the report is not complete.
 - Sections are light with dark text by default.
 - Fonts are Helvetica Neue, Helvetica, Arial, or the closest available equivalent.
 - The type hierarchy is obvious and consistent.
