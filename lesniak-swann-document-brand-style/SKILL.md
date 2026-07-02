@@ -1,19 +1,19 @@
 ---
-name: Lesniak Swann Report Style
-description: Apply the Lesniak Swann report style across DOCX, PDF, slides, and styled Markdown. Use when creating or restyling reports where consistent typography, line height, spacing, hierarchy, and brand colours matter. Prefer document-first outputs; use HTML only when explicitly requested or as an intermediate rendering format.
+name: Lesniak Swann Document Brand Style
+description: Apply the Lesniak Swann document brand style across DOCX, PDF, slides, proposals, reports, exports, and styled Markdown. Use when creating or restyling business documents where consistent typography, spacing, hierarchy, brand colours, tables, charts, and layout rhythm matter. Prefer document-first outputs; use HTML only when explicitly requested or as an intermediate rendering format.
 ---
 
-# Lesniak Swann Report Style
+# Lesniak Swann Document Brand Style
 
-Use this skill when producing a designed report or report-like document for Lesniak Swann, regardless of output format.
+Use this skill when producing designed Lesniak Swann documents, including reports, proposals, audits, strategy documents, credentials, PDF exports, slide-style documents, and structured Markdown.
 
-Apply the guidance silently. Do not add commentary inside the report about fonts, colour tokens, SCSS, CSS, or style rules unless the user explicitly asks for a style guide.
+Apply the guidance silently. Do not add commentary inside the document about fonts, colour tokens, SCSS, CSS, or style rules unless the user explicitly asks for a style guide.
 
-Default to a document-first approach. For reports, prefer DOCX, PDF, slides, or well-structured Markdown over standalone HTML. HTML reports are usually not useful as final deliverables unless the user specifically asks for one or the toolchain needs HTML as an intermediate step to produce a PDF.
+Default to a document-first approach. Prefer DOCX, PDF, slides, or well-structured Markdown over standalone HTML. HTML is usually not useful as a final deliverable unless the user specifically asks for it or the toolchain needs HTML as an intermediate step to produce a PDF.
 
-## Overall Feel
+## Brand Feel
 
-Reports should feel clear, spacious, editorial, and confident. Use light sections with dark text as the default. Do not add a separate cover page unless the user explicitly asks for one. Reserve dark blocks for occasional high-emphasis callouts or chapter dividers.
+Documents should feel clear, spacious, editorial, and confident. Use light sections with dark text as the default. Do not add a separate cover page unless the user explicitly asks for one. Reserve dark blocks for occasional high-emphasis callouts, chapter dividers, or presentation-style section breaks.
 
 Prioritise:
 
@@ -22,7 +22,7 @@ Prioritise:
 - Consistent spacing rhythm
 - Plain, high-contrast colour use
 - Restrained use of accent colours
-- Clear tables, charts, and summary blocks
+- Clear tables, charts, and summary blocks where the content calls for them
 
 ## Fonts
 
@@ -42,21 +42,21 @@ Use one type family throughout:
 - Strong/emphasis: bold, `700`
 - Headings: very bold, `900` where available; otherwise bold
 - Avoid decorative, serif, condensed, or script faces
-- Avoid mixing multiple type families in the same report
+- Avoid mixing multiple type families in the same document
 
 ## Type Hierarchy
 
-Use a restrained hierarchy. A report should normally need only one H1, then H2 and H3 for most structure.
+Use a restrained hierarchy. Most documents need one H1, then H2 and H3 for most structure.
 
 | Role | Use | Digital size | DOCX/PDF print size | Line height |
 | --- | --- | --- | --- | --- |
-| Title / H1 | Report title | 40-72px | 30-54pt | 1.1-1.2 |
+| Title / H1 | Document title | 40-72px | 30-54pt | 1.1-1.2 |
 | H2 | Major sections | 36-60px | 27-45pt | 1.1-1.2 |
 | H3 | Subsections / finding groups | 28-52px | 21-39pt | 1.15-1.25 |
 | H4 | Card headings / table groups | 24-40px | 18-30pt | 1.2-1.3 |
 | H5 | Dense subheads | 20-32px | 15-24pt | 1.25-1.35 |
 | H6 | Labels / minor headings | 20-28px | 15-21pt | 1.25-1.4 |
-| Lead | Executive summary intro | 18-24px | 13.5-18pt | 1.35-1.45 |
+| Lead | Summary or opening intro | 18-24px | 13.5-18pt | 1.35-1.45 |
 | Body | Main copy | 16-18px | 12-13.5pt | 1.5-1.6 |
 | Small | Captions, notes, metadata | 14px | 10.5pt | 1.35-1.45 |
 | X-small | Footnotes, source labels | 12px | 9pt | 1.3-1.4 |
@@ -84,7 +84,7 @@ Use these colours consistently:
 | Off-black | `#1e1e1e` | Dark callout panels |
 | White | `#ffffff` | Clean page/card backgrounds |
 | Light cream | `#fff8ef` | Warm highlight background |
-| Paper | `#f4f3ec` | Default report background or section bands |
+| Paper | `#f4f3ec` | Default document background or section bands |
 | Paper dark | `#dfded3` | Borders, dividers, quiet table fills |
 | Red | `#e2001b` | Primary accent, key figures, rules, warnings |
 | Burnt red | `#9f0619` | Darker red accent where needed |
@@ -102,7 +102,7 @@ Colour rules:
 
 ## Spacing
 
-Use a steady vertical rhythm:
+Use a steady vertical rhythm across pages, slides, sections, and content blocks:
 
 - Paragraph and list spacing after: about `1.5-2x` body line height
 - Small gap: about `24px` / `18pt`
@@ -119,18 +119,18 @@ Spacing rules:
 - Avoid cramped tables; reduce copy before reducing line height.
 - Avoid huge empty areas unless used deliberately on a section opener.
 
-## Layout Patterns
+## Document Structure
 
-Use these recurring report patterns:
+Start with the user's requested structure. When the structure is unspecified, prefer a concise document flow:
 
-- Header: use a clear report title, date or client metadata, and restrained accent rule. Start reports with this header by default rather than a separate cover page.
-- Cover: only include one when explicitly requested; use a large title, short subtitle, date or client metadata, and restrained accent rule.
-- Executive summary: lead paragraph, 3-5 key findings, optional metric strip.
+- Header: clear document title, date or client metadata, and restrained accent rule.
+- Summary: lead paragraph, key points, optional metric strip.
 - Section opener: H2, short lead, then content blocks.
-- Finding block: H3/H4, short explanation, evidence, implication or recommendation.
+- Evidence or finding block: H3/H4, short explanation, evidence, implication or recommendation.
 - Data block: clear chart/table title, chart/table, source note in small text.
 - Callout: light card by default; dark card only for standout emphasis.
-- Recommendation: concise heading, body copy, owner/status/priority if useful.
+- Recommendation or action block: concise heading, body copy, owner/status/priority if useful.
+- Cover: only include one when explicitly requested; use a large title, short subtitle, date or client metadata, and restrained accent rule.
 
 Avoid nesting cards inside cards. Do not overuse decorative boxes; use them to clarify grouping.
 
@@ -174,7 +174,7 @@ For PDF:
 
 For HTML:
 
-- Do not choose HTML as the final report format unless explicitly requested.
+- Do not choose HTML as the final document format unless explicitly requested.
 - If HTML is used as a PDF-rendering intermediate, keep it print-oriented and generate the PDF deliverable.
 - Use rem or px values matching the digital size column.
 - Keep the root/body typography consistent across pages.
@@ -197,4 +197,4 @@ Before finishing:
 - Colours come from the palette.
 - Red and blue are accents, not decoration.
 - Tables and charts are readable without relying on colour alone.
-- The report does not explain its own styling rules.
+- The document does not explain its own styling rules.

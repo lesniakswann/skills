@@ -6,19 +6,19 @@ More information can be found in the Lesniak Swann Slack channel **Claude Skills
 
 ## Available Skills
 
-### Lesniak Swann Report Style
+### Lesniak Swann Document Brand Style
 
-Folder: `lesniak-swann-report-style`
+Folder: `lesniak-swann-document-brand-style`
 
-Applies the Lesniak Swann report style to DOCX, PDF, slides, and styled Markdown, including typography, spacing, hierarchy, brand colours, logo use, tables, charts, and document-first output guidance.
+Applies the Lesniak Swann document brand style to DOCX, PDF, slides, proposals, reports, exports, and styled Markdown, including typography, spacing, hierarchy, brand colours, tables, charts, and document-first output guidance.
 
 Example uses:
 
-- "Create a PDF report from this research in the Lesniak Swann report style."
-- "Turn these notes into a polished DOCX report using the Lesniak Swann style."
-- "Restyle this draft so it feels like a Lesniak Swann client report."
-- "Create a short slide deck from this summary using the Lesniak Swann report style."
-- "Format this strategy document as a styled Markdown report for Lesniak Swann."
+- "Create a PDF proposal from this outline in the Lesniak Swann document style."
+- "Turn these notes into a polished DOCX using the Lesniak Swann style."
+- "Restyle this draft so it feels like a Lesniak Swann client document."
+- "Create a short slide deck from this summary using the Lesniak Swann document brand style."
+- "Format this strategy document as styled Markdown for Lesniak Swann."
 
 ## Downloading A Skill
 
