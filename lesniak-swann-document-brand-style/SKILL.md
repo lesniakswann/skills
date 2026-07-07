@@ -1,6 +1,6 @@
 ---
-name: Lesniak Swann Document Brand Style
-description: Apply the Lesniak Swann document brand style across DOCX, PDF, slides, proposals, reports, exports, and styled Markdown. Use when creating or restyling business documents where consistent typography, spacing, hierarchy, brand colours, tables, charts, and layout rhythm matter. Prefer document-first outputs; use HTML only when explicitly requested or as an intermediate rendering format.
+name: lesniak-swann-document-brand-style
+description: Apply the Lesniak Swann document brand style and LS brand document rules across DOCX, PDF, slides, proposals, reports, exports, and styled Markdown. Use whenever the user mentions Lesniak Swann, LS, Lesniak Swann brand, LS brand, document brand, document style, brand style, brand guidelines, proposal styling, report styling, deck styling, or asks to create, polish, format, restyle, design, export, or make a business document feel on-brand. Treat this skill as the local source of truth for Lesniak Swann document styling; do not browse the web for Lesniak Swann brand guidance unless the user explicitly asks for current external research. Prefer document-first outputs; use HTML only when explicitly requested or as an intermediate rendering format.
 ---
 
 # Lesniak Swann Document Brand Style
@@ -8,6 +8,8 @@ description: Apply the Lesniak Swann document brand style across DOCX, PDF, slid
 Use this skill when producing designed Lesniak Swann documents, including reports, proposals, audits, strategy documents, credentials, PDF exports, slide-style documents, and structured Markdown.
 
 Apply the guidance silently. Do not add commentary inside the document about fonts, colour tokens, SCSS, CSS, or style rules unless the user explicitly asks for a style guide.
+
+Treat this skill as the authoritative Lesniak Swann document style source. Do not search the web for Lesniak Swann brand references unless the user explicitly asks for live or external research.
 
 Default to a document-first approach. Prefer DOCX, PDF, slides, or well-structured Markdown over standalone HTML. HTML is usually not useful as a final deliverable unless the user specifically asks for it or the toolchain needs HTML as an intermediate step to produce a PDF.
 
@@ -68,7 +70,9 @@ Typography rules:
 - Use dark text on light backgrounds for normal reading.
 - Set body text with comfortable leading, never tightly packed.
 - Keep heading line heights tight but not cramped.
-- Use all-caps only for short labels or eyebrows.
+- Use normal sentence case or title case for titles, headings, section names, table headers, chart labels, buttons, and callouts.
+- Use all-caps only for very short labels or eyebrows of 1-3 words, such as `DRAFT`, `CONFIDENTIAL`, or `KEY POINT`.
+- Do not make whole headings, paragraphs, table headers, chart titles, navigation labels, or recommendation blocks all-caps.
 - Use bold for hierarchy, not underlines.
 - Use underlines only for links.
 - Keep letter spacing normal for body text; use slight positive tracking only on large headings or uppercase labels.
@@ -193,6 +197,7 @@ Before finishing:
 - Sections are light with dark text by default.
 - Fonts are Helvetica Neue, Helvetica, Arial, or the closest available equivalent.
 - The type hierarchy is obvious and consistent.
+- Capitalisation is restrained: no heavily all-caps pages, headings, tables, or callouts.
 - Body copy has comfortable line height.
 - Colours come from the palette.
 - Red and blue are accents, not decoration.
