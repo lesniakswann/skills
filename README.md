@@ -1,14 +1,16 @@
-# Lesniak Swann Skills
+# Skills For Everyday Work
 
-This is the Lesniak Swann repository for reusable AI skills. Each folder contains a skill with project-specific guidance, brand rules, workflows, or reference material.
+This repository contains reusable AI skills for everyday work. Each folder contains a skill with practical guidance, brand rules, workflows, or reference material.
 
 For installation, usage, and maintenance documentation, use the Lesniak Swann Slack channel **Claude Skills** as the source of truth.
 
 ## Available Skills
 
-### Lesniak Swann Document Brand Style
+### Everyday Work
 
-Folder: `lesniak-swann-document-brand-style`
+#### Branded Document Formatting
+
+Folder: `everyday-work/branded-document-formatting`
 
 Applies the Lesniak Swann document brand style to DOCX, PDF, slides, proposals, reports, exports, and styled Markdown, including typography, spacing, hierarchy, brand colours, tables, charts, and document-first output guidance.
 
