@@ -11,16 +11,13 @@ Once installed, a skill works quietly in the background. You do not need to ment
 
 Use the pinned Slack message in **#claude-skills**.
 
-That message lists the available skills and links directly to each one. You do not need to browse the GitHub repository or understand the folder structure.
-
-Each skill link opens a page on GitHub. From there, you download the file and upload it to Claude.
+That message lists the available skills and links directly to each one, clicking a link will download the skill directly.
 
 ## Before You Start
 
 You will need:
 
 - Access to the pinned **#claude-skills** Slack message
-- Access to the Lesniak Swann GitHub repository
 - A Claude account, either on claude.ai or in the Claude desktop app
 - A couple of minutes
 
@@ -30,13 +27,10 @@ You will need:
    Go to **#claude-skills** and open the pinned message that lists the available skills.
 
 2. **Choose the skill**
-   Click the link for the skill you want to install.
+   Click the link for the skill you want to install. The skill file will download directly.
 
-3. **Download from GitHub**
-   The link opens the skill file in GitHub. Click the download button in the top-right area of the file view.
-
-4. **Save the file**
-   Save it somewhere easy to find, such as your Desktop or Downloads folder.
+3. **Find the downloaded file**
+   Look in your Downloads folder, or wherever your browser usually saves downloaded files.
 
 When screenshots are added to this guide, follow the highlighted links and buttons shown in the screenshots.
 
@@ -86,7 +80,7 @@ When a skill is updated, replace your installed version with the latest file fro
    Go back to **#claude-skills** and click the link for the skill.
 
 2. **Download the latest version**
-   Download the skill file from GitHub again.
+   The latest skill file will download directly.
 
 3. **Open Skills in Claude**
    Open **Customise**, then go to **Skills**.

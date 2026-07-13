@@ -87,8 +87,8 @@ Use these colours consistently:
 | Black | `#000000` | Primary text, dark accents |
 | Off-black | `#1e1e1e` | Dark callout panels |
 | White | `#ffffff` | Clean page/card backgrounds |
-| Light cream | `#fff8ef` | Warm highlight background |
-| Paper | `#f4f3ec` | Default document background or section bands |
+| Light cream | `#fff8ef` | Optional warm highlight background |
+| Paper | `#f4f3ec` | Optional section bands, subtle callouts, or quiet table fills |
 | Paper dark | `#dfded3` | Borders, dividers, quiet table fills |
 | Red | `#e2001b` | Primary accent, key figures, rules, warnings |
 | Burnt red | `#9f0619` | Darker red accent where needed |
@@ -97,7 +97,8 @@ Use these colours consistently:
 
 Colour rules:
 
-- Default pages and sections should be `#f4f3ec` or `#ffffff` with `#000000` text.
+- Default pages should be `#ffffff` with `#000000` text.
+- Use `#f4f3ec` only for occasional section bands, callouts, or table fills; do not use it as the full-page PDF background unless explicitly requested.
 - Use red sparingly. It should draw attention to the most important metric, exception, or action.
 - Use blue as a secondary highlight or comparison colour, not as the dominant palette.
 - Use `#dfded3` for light borders, table rules, and dividers.
@@ -175,7 +176,7 @@ For DOCX:
 - Use point sizes from the DOCX/PDF column in the type table.
 - Use exact or multiple line spacing equivalent to the line-height guidance.
 - Use paragraph spacing after instead of extra blank paragraphs.
-- Use page/section background colour only if the tool supports it reliably; otherwise use light shaded blocks sparingly.
+- Keep the page background white. Use light shaded blocks sparingly when grouping content.
 
 For PDF:
 
