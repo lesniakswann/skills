@@ -10,7 +10,7 @@ For installation, usage, and maintenance documentation, use the Lesniak Swann Sl
 
 #### Branded Document Formatting
 
-Folder: `everyday-work/branded-document-formatting`
+File: `everyday-work/format-and-brand-documents.md`
 
 Applies the Lesniak Swann document brand style to DOCX, PDF, slides, proposals, reports, exports, and styled Markdown, including typography, spacing, hierarchy, brand colours, tables, charts, and document-first output guidance.
 
