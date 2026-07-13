@@ -182,6 +182,7 @@ For PDF:
 
 - Treat it like print: use the DOCX/PDF point sizes.
 - Keep body text around 12pt with generous leading.
+- Keep content inset from the page edge. Use comfortable page margins of about `54-72pt` / `19-25mm`; never run text, tables, logos, or normal content full bleed.
 - Use margins and section spacing rather than relying on large decorative containers.
 - Check page breaks so headings do not orphan from their content.
 
