@@ -104,6 +104,25 @@ Colour rules:
 - Dark panels should be rare and intentional, using `#1e1e1e` or `#000000` with white text.
 - Do not create large gradients or one-colour decorative backgrounds.
 
+## Logo Assets
+
+Use bundled local logo assets only. Do not try to download the Lesniak Swann logo from a remote URL, scrape it from a website, or recreate it from memory.
+
+Expected logo files, when available:
+
+- Primary logo: `assets/lesniak-swann-logo-primary.png` or `assets/lesniak-swann-logo-primary.svg`
+- White/reversed logo: `assets/lesniak-swann-logo-white.png` or `assets/lesniak-swann-logo-white.svg`
+- Mark or small-use logo: `assets/lesniak-swann-mark.png` or `assets/lesniak-swann-mark.svg`
+
+Logo rules:
+
+- If a required logo asset is present in `assets/`, embed that local file directly in the output.
+- If no suitable bundled logo exists, ask the user to provide the logo file instead of using a remote URL.
+- Use the primary logo on light backgrounds and the white/reversed logo only on dark backgrounds.
+- Preserve the logo aspect ratio. Do not stretch, recolour, redraw, crop tightly, add effects, or place it inside a decorative container.
+- Use the logo sparingly: usually in the header, footer, cover, title slide, or final page. Do not repeat it on every content block.
+- Keep clear space around the logo at least equal to the height of the logo text where the layout allows.
+
 ## Spacing
 
 Use a steady vertical rhythm across pages, slides, sections, and content blocks:
