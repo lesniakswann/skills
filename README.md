@@ -6,6 +6,34 @@ For installation, usage, and maintenance documentation, use the Lesniak Swann Sl
 
 ## Available Skills
 
+### Creative
+
+#### Plan Creative Brief
+
+File: `creative/plan-brief.md`
+
+Guides a user through a creative briefing conversation one decision at a time, uncovering gaps, assumptions, risks, constraints, deliverables, objectives, audiences, approvals, timeline, budget, and production implications before creative work begins.
+
+Example uses:
+
+- "Help me plan this creative brief."
+- "Interrogate this campaign brief before we quote it."
+- "Run a briefing interview with me for this design project."
+- "Stress-test this brief and find what we have not decided yet."
+
+#### To Creative Brief
+
+File: `creative/to-creative-brief.md`
+
+Turns established conversation context, notes, documents, assets, brand guidelines, or previous discovery into a structured creative brief, clearly separating confirmed information, assumptions, and outstanding questions.
+
+Example uses:
+
+- "Turn this conversation into a creative brief."
+- "Write a creative brief from these notes."
+- "Compile the discovery so far into a brief for the design team."
+- "Create a structured creative brief and flag anything still missing."
+
 ### Everyday Work
 
 #### Branded Document Formatting
